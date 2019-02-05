@@ -1,0 +1,6 @@
+# This is our First Real Docker File
+FROM centos:7
+LABEL maintainer="info@devopstechlab.com"
+
+RUN useradd -ms /bin/bash user
+USER user
